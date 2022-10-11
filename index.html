@@ -15,28 +15,59 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/3d83a30103.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div id="mainHeader" style="background-image: url(./images/eclair-3366430_1920.jpg); width: 100%;"></div>
+  <!-- navbar -->
+
+
+  <!-- below navbar -->
+  <div id="mainHeader" style="background-image: url(./images/backgroungImage.avif); width: 100%; height: 400px;">
+    <div class="content1">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6"></div>
+        <div class="col-lg-6 col-md-4 col-sm-6">
+          <h1 id="zomato">ZOMATO</h1>
+          <p id="hed1">Discover the best Food and Drink in Kochi</p>
+          <!-- search box -->
+          <div class="input-group mb-3">
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-location-pin"></i> Fort Kochi, Kochi </button>
+            <ul class="dropdown-menu">
+              <li><i style="color: red;" class="fa-solid fa-location-crosshairs"></i> <h6 style="color: red;">Detect Current Location</h6> Using GPS</li>
+            </ul>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder=" Search for Resturant Cuisine or a Dish">
+          </div>
+
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6"></div>
+      </div>
+    </div>
+  </div>
   <div class="container">
     <did class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <div
-          style="width: 100%;height: 300px; margin-left: 0px; margin-right: 20px; margin-top: 30px; border: 1px solid black; border-radius: 10px; ">
-          <img src="./images/cake-1971552_1920.jpg" alt="" style="width: 100%; height: 200px; border-radius: 10px;">
+      <div class="col-lg-1 col-md-1 col-sm-12"></div>
+
+      <div class="col-lg-5 col-md-5 col-sm-12">
+        <div id="img1"  
+          style="width: 100%;height: 250px; margin-left: 0px; margin-right: 20px; margin-top: 30px; border: 1px solid black; border-radius: 10px; ">
+          <img  src="./images/img1.avif" alt="" style="width: 100%; height: 170px; border-radius: 10px;">
           <h3>Order Online</h3>
           <p>Stay home and order to your doorstep</p>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <div
-          style="width: 100%;height: 300px; margin-left: 0px; margin-right: 20px ; margin-top: 30px; border: 1px solid black; border-radius: 10px; ">
-          <img src="./images/eclair-3366430_1920.jpg" alt="" style="width: 100%; height: 200px; border-radius: 10px;">
+      <div class="col-lg-5 col-md-5 col-sm-12">
+        <div 
+          style="width: 100%;height: 250px; margin-left: 0px; margin-right: 20px ; margin-top: 30px; border: 1px solid black; border-radius: 10px; ">
+          <img id="img2" src="./images/img2.avif" alt="" style="width: 100%; height: 170px; border-radius: 10px;">
           <h3>Dining</h3>
           <p>View the city's favourite dining venues</p>
         </div>
       </div>
+      <div class="col-lg-1 col-md-1 col-sm-12"></div>
+
+
       <!-- part-2 -->
       <div class="collections" style="margin-top: 50px;">
         <h2>Collections</h2>
@@ -48,28 +79,17 @@
             <img src="./images/pancakes-2291908_1920.jpg" alt="" style="width: 100%;height: 300px;">
             <div class="head">
               <h2 style="color: white;">veggy friendly</h2>
-              <p style="color: white;">know more</p>
+              <p style="color: white;"><a href="">5 Places &gt;</a></p>
 
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
           <div style="width: 100%;height: 300px;">
-            <img src="./images/pancakes-2291908_1920.jpg" alt="" style="width: 100%;height: 300px;">
+            <img src="./images/hamburger-1238246_1920.jpg" alt="" style="width: 100%;height: 300px;">
             <div class="head">
-              <h2 style="color: white;">veggy friendly</h2>
-              <p style="color: white;">know more</p>
-
-            </div>
-          </div>
-
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div style="width: 100%;height: 300px;">
-            <img src="./images/pancakes-2291908_1920.jpg" alt="" style="width: 100%;height: 300px;">
-            <div class="head">
-              <h2 style="color: white;">veggy friendly</h2>
-              <p style="color: white;">know more</p>
+              <h2 style="color: white;">Trending</h2>
+              <p style="color: white;"><a href="">30 Places &gt;</a></p>
 
             </div>
           </div>
@@ -77,28 +97,259 @@
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
           <div style="width: 100%;height: 300px;">
-            <img src="./images/pancakes-2291908_1920.jpg" alt="" style="width: 100%;height: 300px;">
+            <img src="./images/hamburger-494706.jpg" alt="" style="width: 100%;height: 300px;">
             <div class="head">
-              <h2 style="color: white;">veggy friendly</h2>
-              <p style="color: white;">know more</p>
+              <h2 style="color: white;">Must-Visit</h2>
+              <p style="color: white;"><a href="">9 Places &gt;</a></p>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div style="width: 100%;height: 300px;">
+            <img src="./images/eclair-3366430_1920.jpg" alt="" style="width: 100%;height: 300px;">
+            <div class="head">
+              <h2 style="color: white;">Great Cafes</h2>
+              <p style="color: white;"><a href="">11 Places &gt;</a></p>
 
             </div>
           </div>
 
         </div>
       </div>
-      <div id="locality">
-        <h2>Popular locality</h2>
+      <div id="locality" style="margin-top: 50px;">
+        <h2>Popular localities in and around Kochi</h2>
       </div>
+      <div id="placesName" style="margin-left: 10%;">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="shadow-sm p-3 mb-5 bg-body rounded" style="width: 300px; height: 70px;margin-top: 20px;">
+              Kakkanad <span>&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="shadow-sm p-3 mb-5 bg-body rounded" style="width: 300px; height: 70px;margin-top: 20px;">
+              Edappally <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="shadow-sm p-3 mb-5 bg-body rounded" style="width: 300px; height: 70px;margin-top: 20px;">
+              Fort Kochi <span>&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="shadow-sm p-3 mb-5 bg-body rounded" style="width: 300px; height: 70px;margin-top: 0px;">
+              Panampilly <span>&nbsp;&nbsp;&gt;</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="shadow-sm p-3 mb-5 bg-body rounded" style="width: 300px; height: 70px;margin-top: 0px;">
+              MG Road <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="shadow-sm p-3 mb-5 bg-body rounded" style="width: 300px; height: 70px;margin-top: 0px;">
+              Kacheripady <span>&gt;</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="shadow-sm p-3 mb-5 bg-body rounded" style="width: 300px; height: 70px;margin-top: 0px;">
+              Palarivattom <span>&gt;</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="shadow-sm p-3 mb-5 bg-body rounded" style="width: 300px; height: 70px;margin-top: 0px;">
+              vyttila <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="shadow-sm p-3 mb-5 bg-body rounded" style="width: 300px; height: 70px;margin-top: 0px;">
+              Kaloor <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>
+            </div>
+          </div>
+        </div>
 
-
-
-
-
-
-
-
+      </div>
   </div>
+  <!-- application download -->
+
+  <div class="applicationDownlodeMainDiv" style="background-color: #FFFBF7; margin-top: 70px;">
+    <div class="applicationContentMain" style="margin-top: 50px;">
+      <div class="row">
+        <div class="col-lg-2 col-md-6 col-sm-12"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="./images/applicationImage.avif" width="100%" height="auto" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <h1>Get the application</h1>
+          <p style="margin-top: 10px;">We will send you a link, open it on your phone to download the app</p>
+          <!-- search box -->
+          <form class="row g-3" style="margin-top: 1px;">
+            <div class="col-auto">
+              <label for="input" class="visually-hidden">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-danger mb-3">Share App Link</button>
+            </div>
+          </form>
+          <div style="margin-bottom: 50px;">
+            <p>Download App From</p>
+            <a href="">
+              <img src="./images/googlePlay.png" alt="Google Play" style="width: 150px;">
+            </a> &emsp;&emsp;
+            <a href="">
+              <img src="./images/appStore.png" alt="App Store" style="width: 150px;">
+            </a>
+          </div>
+
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- accordion -->
+  <div class="row">
+    <div class="col-lg-2 col-md-6 col-sm-12"></div>
+    <div class="col-lg-8 col-md-6 col-sm-12">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item"
+          style="margin-bottom: 30px; margin-top: 30px; border: 2px solid rgba(0, 0, 0, 0.304); border-radius: 5px;">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Popular cuisines near me
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item"
+          style="margin-bottom: 30px; border: 2px solid rgba(0, 0, 0, 0.304); border-radius: 5px;">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Popular restaurant types near me
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item"
+          style="margin-bottom: 30px; border: 2px solid rgba(0, 0, 0, 0.304); border-radius: 5px;">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Top Restaurant Chains
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-6 col-sm-12"></div>
+  </div>
+
+  <footer>
+    <div class="footerMain" style="background-color: #F8F8F8;">
+      <div class="footerContent" style="margin-top: 30px;">
+        <div class="row">
+          <div class="col-lg-2 col-md-6 col-sm-12"></div>
+          <div class="col-lg-8 col-md-6 col-sm-12">
+            <h1 style="margin-top: 20px;">Zomato</h1>
+            <div class="row" style="margin-top: 20px;">
+              <div class="col-lg-2 col-md-3 col-md-6">
+                <h6>ABOUT ZOMATO</h6>
+                <ul style="list-style: none;">
+                  <li>Who We Are</li>
+                  <li>Blog</li>
+                  <li>Work With US</li>
+                  <li>Investor Relations</li>
+                  <li>Report Fraud</li>
+                  <li>Contact Us</li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-3 col-md-6">
+                <h6>ZOMAVERSE</h6>
+                <ul style="list-style: none;">
+                  <li>Zomato</li>
+                  <li>Feeding India</li>
+                  <li>Hyperpure</li>
+                  <li>Zomaland</li>
+                </ul>
+
+              </div>
+              <div class="col-lg-2 col-md-3 col-md-6">
+                <h6>FOR RESTAURANTS</h6>
+                <ul style="list-style: none;">
+                  <li>Partner With Us</li>
+                  <li>Apps For You</li>
+                </ul>
+                <h6>FOR ENTERPRISES</h6>
+                <ul style="list-style: none;">
+                  <li>Zomato For Work</li>
+                </ul>
+
+
+              </div>
+              <div class="col-lg-2 col-md-3 col-md-6">
+                <h6>LEARN MORE</h6>
+                <ul style="list-style: none;">
+                  <li>Privacy</li>
+                  <li>Security</li>
+                  <li>Terms</li>
+                  <li>Sitemap</li>
+                </ul>
+
+              </div>
+              <div class="col-lg-2 col-md-3 col-md-6" style="margin-bottom: 50px;">
+                <h6>SOCIAL LINKS</h6>
+                <a href=""><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                <a href=""><i class="fa-brands fa-instagram" style="color: black;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter" style="color: black;"></i></a>
+                <a href=""><i class="fa-brands fa-youtube" style="color: black;"></i></a>
+                <a href=""><i class="fa-brands fa-facebook" style="color: black;"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12"></div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
 
 
 
@@ -109,5 +360,3 @@
 </body>
 
 </html>
-
-
